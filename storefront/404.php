@@ -64,7 +64,7 @@ get_header(); ?>
 							$shortcode_content = storefront_do_shortcode(
 								'best_selling_products',
 								array(
-									'per_page' => 5,
+									'per_page' => 4,
 									'columns'  => 5,
 								)
 							);
